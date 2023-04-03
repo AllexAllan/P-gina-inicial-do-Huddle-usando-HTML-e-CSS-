@@ -5,7 +5,7 @@ html{
 }
 body{
     background:url(../images/bg-desktop.svg) rgb(103,75,176) no-repeat;
-    background-size: contain;
+    background-size:cover;
     display: grid;
     grid-template-areas: " header header header header"
                          "about about about about"
@@ -31,7 +31,8 @@ body{
     grid-template-rows: 1fr;
 }
 .about .image{
-    padding: 0 0 0 6rem;
+     display: flex;
+    justify-content: center;
 }
 .about .info{
     display: flex;
