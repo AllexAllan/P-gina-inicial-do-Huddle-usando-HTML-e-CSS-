@@ -24,9 +24,10 @@ body{
 /*ABOUT*/
 
 .about{
+    padding: 2rem;
     grid-area: about;
     display: grid;
-    height: 80vh;
+    height: 70vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
