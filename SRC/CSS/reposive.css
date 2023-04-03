@@ -6,10 +6,6 @@
     .header{
         padding: 4rem;
     }
-    .header .header-container img{
-        width: 30% ;
-        height: 30%;
-    }
     .about{
         grid-template-columns: 1fr;
     }
