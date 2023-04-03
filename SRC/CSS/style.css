@@ -6,6 +6,7 @@ html{
 body{
     background:url(../images/bg-desktop.svg) rgb(103,75,176) no-repeat;
     background-size:cover;
+    height: 100vh;
     display: grid;
     grid-template-areas: " header header header header"
                          "about about about about"
@@ -17,6 +18,7 @@ body{
 /*HEADER*/           
     
 .header{
+    height: 15vh;
     grid-area: header;
     padding: 6rem 0 6rem 6rem;
 }
@@ -27,6 +29,7 @@ body{
 .about{
     grid-area: about;
     display: grid;
+    height: 70vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
@@ -79,6 +82,7 @@ body{
 /*FOOTER*/
 
 .footer{
+    height: 15vh;
     grid-area: footer;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
