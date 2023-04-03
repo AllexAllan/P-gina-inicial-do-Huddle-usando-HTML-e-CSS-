@@ -26,7 +26,7 @@ body{
 .about{
     grid-area: about;
     display: grid;
-    height: 70vh;
+    height: 80vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
