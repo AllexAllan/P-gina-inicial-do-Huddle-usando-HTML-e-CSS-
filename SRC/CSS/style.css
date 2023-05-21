@@ -6,39 +6,32 @@ html{
 body{
     background:url(../images/bg-desktop.svg) rgb(103,75,176) no-repeat;
     background-size: cover;
-    display: grid;
-    grid-template-areas: " header header header header"
-                         "about about about about"
-                         "footer footer footer footer";
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
+    height: 100vh;
 }
 
 /*HEADER*/           
     
 .header{
-    grid-area: header;
-    padding: 6rem 0 6rem 6rem;
+    padding: 4rem ;
 }
 
 /*ABOUT*/
 
 .about{
-    padding: 2rem;
-    grid-area: about;
-    display: grid;
-    height: 70vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.about .image{
+    margin: 4rem;
     display: flex;
-    justify-content: center;
 }
 .about .info{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 4rem;
 }
 .about .info h1{
     font-weight: 600;
@@ -80,16 +73,11 @@ body{
 
 /*FOOTER*/
 
-.footer{
-    grid-area: footer;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-}
 .footer .social{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 0 6rem; 
+    margin: 0 4rem;
 }
 .footer .social a{
     text-align: center;
@@ -104,10 +92,8 @@ body{
     transition: 0.5s;
 }
 .footer p{
-    margin: 2rem 0 0 0;
     display: flex;
     justify-content: center;
-    align-items: end;
 }
 .footer .social a:hover{
     color: rgb(224, 86, 255);
