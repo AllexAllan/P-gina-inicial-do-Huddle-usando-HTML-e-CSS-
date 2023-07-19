@@ -92,8 +92,11 @@ body{
     transition: 0.5s;
 }
 .footer p{
+    position: relative;
+    bottom: -40px;
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 .footer .social a:hover{
     color: rgb(224, 86, 255);
